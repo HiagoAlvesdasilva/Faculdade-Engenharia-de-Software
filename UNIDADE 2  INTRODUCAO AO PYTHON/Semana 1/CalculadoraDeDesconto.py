@@ -1,5 +1,5 @@
 # Solicita ao usuário que insira o valor do produto e o percentual de desconto
-valor_produto = float(input("Digite o Valor Do Produto: R$ ")) 
+valor_produto = float(input("Digite o Valor Do Produto: R$ "))
 percentual_desconto = float(input("Qual o Percentual de desconto: "))
 
 # Verifica se o percentual de desconto está dentro dos limites aceitáveis
