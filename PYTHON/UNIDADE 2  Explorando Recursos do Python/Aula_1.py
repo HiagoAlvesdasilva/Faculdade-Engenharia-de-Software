@@ -41,3 +41,18 @@ vogais = ['a', 'e', 'i', 'o', 'u']
 print(f"Tipo de Objeto Vogais = {type(vogais)}")
 for p, x in enumerate(vogais):
     print(f"Posiçao= {p}, valor = {x}")
+
+#Aplicando A Aula
+
+#Tupla de Convidados
+convidados = ("Alice", "Bob", "Carol", "David", "Eva")
+#lista de Confirmados
+confirmados = ["Bob", "David"]
+#Identificar quem ainda nao Confirmou
+nao_condirmados = [convidado for convidado in convidados if convidado not in confirmados ]
+#Exibir os que ainda nao confirmaram
+print("Convidados Que Ainda Não Confirmaram: ")
+for pessoa in nao_condirmados:
+    print(pessoa)
+#Enviar lambretes para os nao confirmados
+print("\nEnviando Lembretes Para os Convidados Que Ainda Não Confirmaram")    
