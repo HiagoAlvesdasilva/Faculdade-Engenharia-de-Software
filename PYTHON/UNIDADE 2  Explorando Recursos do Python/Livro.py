@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+
 class Livro:
     biblioteca = []  # Lista de livros como atributo de classe
     anos = []  # Lista de anos de publicação como atributo de classe
